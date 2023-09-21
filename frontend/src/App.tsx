@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { SelectedPage } from './shared/types';
+import Home from './components/Home';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
   useEffect(()=>{
    const handleScroll=()=>{
-    if(window.scrollY ===0){
+    if(window.scrollY === 0){
       setIsTopPage(true);
       setSelectedPage(SelectedPage.Home)
     }
@@ -30,6 +31,7 @@ function App() {
     selectedPage={selectedPage}
     setSelectedPage={setSelectedPage} 
     />
+    <Home setSelectedPage={setSelectedPage}/>
     </div>
   );
 }
