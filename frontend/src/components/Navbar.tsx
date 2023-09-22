@@ -16,12 +16,12 @@ const Navbar = ({isTopOfPage,selectedPage,setSelectedPage}:Props) => {
     const isAboveMediumScreens=useMediaQuery("(min-width:1060px)")
 
     const [isMenuToggled,setIsMenuToggled]=useState<boolean>(false)
-    const navbaBackground=isTopOfPage?"":"bg-red-400 drop-shadow"
+    const navbaBackground= isTopOfPage ? "":"bg-red-400 drop-shadow"
 
   return (
     <nav>
     <div 
-    className={`${navbaBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}
+    className={`${navbaBackground} ${flexBetween} fixed top-0 z-30 w-full py-6 `}
     >
         <div className={`${flexBetween} mx-auto w-5/6`}>
 
@@ -38,8 +38,7 @@ const Navbar = ({isTopOfPage,selectedPage,setSelectedPage}:Props) => {
             className={`${flexBetween} gap-8 text-sm`}
             >
         <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-        <Link page="About" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-        <Link page="Benefit" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+        <Link page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Link page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Link page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
             </div> 
@@ -78,11 +77,11 @@ const Navbar = ({isTopOfPage,selectedPage,setSelectedPage}:Props) => {
         {/* Menu Item */}
 
         <div 
-            className="flex flex-col gap-10 text-2xl"
+            className="flex flex-col gap-10 text-2xl ml-5"
             >
         <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Link page="About" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-        <Link page="Benefit" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+        <Link page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Link page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Link page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
             </div> 

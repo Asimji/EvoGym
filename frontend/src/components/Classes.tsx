@@ -14,23 +14,24 @@ const OurClasses:Array<ClassType>=[
     {
         name: "Weight Training Classes",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Elevate your strength and sculpt your body with our dynamic Weight Training Classes, expertly tailored to help you achieve your fitness goals.",
         image:image1,
       },
       {
         name: "Yoga Classes",
+        description:"Discover serenity and balance in our Yoga Classes, where ancient wisdom meets modern practice to nurture your mind, body, and soul.",
         image:image2,
       },
       {
         name: "Ab Core Classes",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Strengthen your core and sculpt your midsection with our Ab Core Classes, designed to help you achieve a toned and resilient core.",
         image:image3,
       },
       {
         name: "Adventure Classes",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Embark on exhilarating fitness adventures with our Adventure Classes, where every session is a thrilling journey toward your health and wellness goals.",
         image:image4,
       },
       {
@@ -40,7 +41,7 @@ const OurClasses:Array<ClassType>=[
       {
         name: "Training Classes",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Elevate your fitness journey with our Training Classes, expertly designed to help you reach your goals and unleash your full potential.",
         image:image6,
       },
 ]
@@ -71,7 +72,7 @@ const Classes = ({setSelectedPage}: Props) => {
   <div className='md:w-3/5 text-left'>
     <Htext>Our Classes</Htext>
     <p className='py-5'>
-    Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est tellus quam porttitor. Mauris velit euismod elementum arcu neque facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit enim mattis odio in risus nunc.
+    Explore a diverse range of invigorating classes at our gym, designed to suit all fitness levels and interests. Unleash your potential and experience the joy of transformation through our enriching classes.
     </p>
   </div>
        </motion.div>
