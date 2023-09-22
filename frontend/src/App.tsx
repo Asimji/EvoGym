@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { SelectedPage } from './shared/types';
 import Home from './components/Home';
+import Benefits from './components/Benefits';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     setSelectedPage={setSelectedPage} 
     />
     <Home setSelectedPage={setSelectedPage}/>
+    <Benefits setSelectedPage={setSelectedPage} />
     </div>
   );
 }
